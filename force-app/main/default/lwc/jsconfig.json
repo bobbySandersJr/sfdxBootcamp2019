@@ -2,7 +2,20 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "baseUrl": ".",
-        "paths": {}
+        "paths": {
+            "c/studentBrowser": [
+                "studentBrowser/studentBrowser.js"
+            ],
+            "c/studentTiles": [
+                "studentTiles/studentTiles.js"
+            ],
+            "c/studentITile": [
+                "studentITile/studentITile.js"
+            ],
+            "c/studentDetails": [
+                "studentDetails/studentDetails.js"
+            ]
+        }
     },
     "include": [
         "**/*",
